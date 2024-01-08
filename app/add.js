@@ -17,12 +17,12 @@ import { collection, addDoc } from 'https://www.gstatic.com/firebasejs/9.10.0/fi
   librosForm.addEventListener('submit',(e)=>{
     e.preventDefault()
 
-    const titulo     = librosForm['titulo']
-    const autor      = librosForm['autor']
-    const editorial  = librosForm['editorial']
-    const isbn       = librosForm['isbn']
-    const fecha      = librosForm['fecha']
+    const titulov     = librosForm['titulo']
+    const autorv      = librosForm['autor']
+    const editorialv  = librosForm['editorial']
+    const isbnv       = librosForm['isbn']
+    const fechav      = librosForm['fecha']
 
-    saveLibro(titulo.value, autor.value, editorial.value, isbn.value, fecha.value)
+    saveLibro(titulov.value, autorv.value, editorialv.value, isbnv.value, fechav.value);
   })
 
