@@ -1,5 +1,5 @@
-import { db } from 'firebase.js'
-import { collection, addDoc } from "firebase/firestore";
+import { db } from './firebase.js'
+import { collection, addDoc } from "from "https://www.gstatic.com/firebasejs/9.10.0/firebase-firestore.js"";
   
   /**
    * Save a New Task in Firestore
