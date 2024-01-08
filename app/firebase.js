@@ -1,6 +1,6 @@
-import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js";
+import { getAuth } from "https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js";
+import { getFirestore } from "https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js";
 const firebaseConfig = {
   apiKey: "AIzaSyAmWyD3GoMybfrr93Fu35bmKX9xgNikjoQ",
   authDomain: "mibliblioteca6.firebaseapp.com",
